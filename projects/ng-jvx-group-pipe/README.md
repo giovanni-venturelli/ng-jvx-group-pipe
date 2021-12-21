@@ -1,4 +1,4 @@
-**# NgJvxGroupPipe
+# NgJvxGroupPipe
 
 ng-jvx-group-pipe is a simple pipe that groups the elements of an array.
 
