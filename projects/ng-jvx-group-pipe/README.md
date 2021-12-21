@@ -65,4 +65,7 @@ In <b>example-component.html</b>
     </div>
   </div>
 ```
+
+Result:
+
 ![result](https://github.com/giovanni-venturelli/ng-jvx-group-pipe/blob/main/blob/grouped-example.png?raw=true)
