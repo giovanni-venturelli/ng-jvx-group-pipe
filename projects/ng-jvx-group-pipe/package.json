@@ -1,0 +1,16 @@
+{
+  "name": "ng-jvx-group-pipe",
+  "version": "1.0.1",
+  "description": "A simple pipe to group the elements of an array.",
+  "peerDependencies": {
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giovanni-venturelli/ng-jvx-group-pipe"
+  }
+}

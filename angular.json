@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-jvx-order-pipe": {
+    "ng-jvx-group-pipe": {
       "projectType": "library",
-      "root": "projects/ng-jvx-order-pipe",
-      "sourceRoot": "projects/ng-jvx-order-pipe/src",
+      "root": "projects/ng-jvx-group-pipe",
+      "sourceRoot": "projects/ng-jvx-group-pipe/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ng-jvx-order-pipe/ng-package.json"
+            "project": "projects/ng-jvx-group-pipe/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ng-jvx-order-pipe/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ng-jvx-group-pipe/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ng-jvx-order-pipe/tsconfig.lib.json"
+              "tsConfig": "projects/ng-jvx-group-pipe/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,9 +27,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng-jvx-order-pipe/src/test.ts",
-            "tsConfig": "projects/ng-jvx-order-pipe/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-jvx-order-pipe/karma.conf.js"
+            "main": "projects/ng-jvx-group-pipe/src/test.ts",
+            "tsConfig": "projects/ng-jvx-group-pipe/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-jvx-group-pipe/karma.conf.js"
           }
         }
       }
@@ -138,5 +138,5 @@
       }
     }
   },
-  "defaultProject": "ng-jvx-order-pipe"
+  "defaultProject": "ng-jvx-group-pipe"
 }
